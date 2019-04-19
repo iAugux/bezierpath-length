@@ -9,18 +9,14 @@
 /* Begin PBXBuildFile section */
 		BE62A87C1DE63D4900A75453 /* BezierPathLength watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BE62A87A1DE63D4900A75453 /* BezierPathLength watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE62A8801DE63D5000A75453 /* BezierPath+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F21DE1F5160004AD58 /* BezierPath+Length.swift */; };
-		BE62A8811DE63D5000A75453 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F51DE1F5160004AD58 /* PathElement.swift */; };
 		BE62A88B1DE63E0B00A75453 /* BezierPathLength tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BE62A8891DE63E0B00A75453 /* BezierPathLength tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE62A88F1DE63E1500A75453 /* BezierPath+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F21DE1F5160004AD58 /* BezierPath+Length.swift */; };
-		BE62A8901DE63E1500A75453 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F51DE1F5160004AD58 /* PathElement.swift */; };
 		BE8116261DDFB02A00FD263E /* BezierPathLength.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE81161C1DDFB02900FD263E /* BezierPathLength.framework */; };
 		BE81162B1DDFB02A00FD263E /* BezierPathLengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE81162A1DDFB02A00FD263E /* BezierPathLengthTests.swift */; };
 		BE9254F61DE1F5160004AD58 /* BezierPath+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F21DE1F5160004AD58 /* BezierPath+Length.swift */; };
 		BE9254F71DE1F5160004AD58 /* BezierPathLength.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9254F31DE1F5160004AD58 /* BezierPathLength.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE9254F91DE1F5160004AD58 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F51DE1F5160004AD58 /* PathElement.swift */; };
 		BEF6CE071DE2001A0083BDC7 /* BezierPathLength macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF6CE051DE2001A0083BDC7 /* BezierPathLength macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF6CE0B1DE2002C0083BDC7 /* BezierPath+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F21DE1F5160004AD58 /* BezierPath+Length.swift */; };
-		BEF6CE0C1DE2002C0083BDC7 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9254F51DE1F5160004AD58 /* PathElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +43,6 @@
 		BE9254F21DE1F5160004AD58 /* BezierPath+Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BezierPath+Length.swift"; path = "Source/BezierPath+Length.swift"; sourceTree = SOURCE_ROOT; };
 		BE9254F31DE1F5160004AD58 /* BezierPathLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierPathLength.h; path = Source/BezierPathLength.h; sourceTree = SOURCE_ROOT; };
 		BE9254F41DE1F5160004AD58 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
-		BE9254F51DE1F5160004AD58 /* PathElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathElement.swift; path = Source/PathElement.swift; sourceTree = SOURCE_ROOT; };
 		BEF6CE031DE2001A0083BDC7 /* BezierPathLength.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BezierPathLength.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF6CE051DE2001A0083BDC7 /* BezierPathLength macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BezierPathLength macOS.h"; sourceTree = "<group>"; };
 		BEF6CE061DE2001A0083BDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				BE9254F21DE1F5160004AD58 /* BezierPath+Length.swift */,
-				BE9254F51DE1F5160004AD58 /* PathElement.swift */,
 			);
 			name = Source;
 			path = BezierPathLength;
@@ -410,7 +404,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE62A8801DE63D5000A75453 /* BezierPath+Length.swift in Sources */,
-				BE62A8811DE63D5000A75453 /* PathElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +412,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE62A88F1DE63E1500A75453 /* BezierPath+Length.swift in Sources */,
-				BE62A8901DE63E1500A75453 /* PathElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +420,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9254F61DE1F5160004AD58 /* BezierPath+Length.swift in Sources */,
-				BE9254F91DE1F5160004AD58 /* PathElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +436,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF6CE0B1DE2002C0083BDC7 /* BezierPath+Length.swift in Sources */,
-				BEF6CE0C1DE2002C0083BDC7 /* PathElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
